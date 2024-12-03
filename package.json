@@ -1,0 +1,17 @@
+{
+  "name": "rbac-db-json-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file .env index.js"
+  },
+  "keywords": [],
+  "author": "Lovish Duggal",
+  "license": "ISC",
+  "description": "RBAC database server",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^0.17.4"
+  }
+}

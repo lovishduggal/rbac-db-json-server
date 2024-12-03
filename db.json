@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "username": "Lovish Duggal",
+      "email": "lovishduggal69@gmail.com",
+      "role": "Admin",
+      "status": "Active",
+      "id": "d54e"
+    },
+    {
+      "username": "Tania Duggal",
+      "email": "taniaduggal60@gmail.com",
+      "role": "Admin",
+      "status": "Active",
+      "id": "a254"
+    }
+  ],
+  "roles": [],
+  "permissions": []
+}
