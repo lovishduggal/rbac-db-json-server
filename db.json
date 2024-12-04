@@ -19,13 +19,22 @@
     {
       "rolename": "Admin",
       "description": "full access",
-      "permissions": ["Read", "Write", "Update", "Delete"],
+      "permissions": [
+        "Read",
+        "Write",
+        "Update",
+        "Delete"
+      ],
       "id": 1
     },
     {
       "rolename": "Editor",
       "description": "It only allows read, write and update operations.",
-      "permissions": ["Read", "Write", "Update"],
+      "permissions": [
+        "Read",
+        "Write",
+        "Update"
+      ],
       "id": 2
     }
   ],
@@ -36,12 +45,12 @@
       "id": 1
     },
     {
-      "permissionname": "write",
+      "permissionname": "Write",
       "description": "can write only",
       "id": 2
     },
     {
-      "permissionname": "update",
+      "permissionname": "Update",
       "description": "Can update only",
       "id": 3
     },
