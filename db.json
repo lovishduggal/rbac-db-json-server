@@ -10,11 +10,50 @@
     {
       "username": "Tania Duggal",
       "email": "taniaduggal60@gmail.com",
-      "role": "Admin",
+      "role": "Editor",
       "status": "Active",
       "id": "a254"
     }
   ],
-  "roles": [],
-  "permissions": []
+  "roles": [
+    {
+      "rolename": "Admin",
+      "description": "full access",
+      "permissions": ["Read", "Write", "Update", "Delete"],
+      "id": 1
+    },
+    {
+      "rolename": "Editor",
+      "description": "It only allows read, write and update operations.",
+      "permissions": ["Read", "Write", "Update"],
+      "id": 2
+    }
+  ],
+  "permissions": [
+    {
+      "permissionname": "Read",
+      "description": "can view only",
+      "id": 1
+    },
+    {
+      "permissionname": "write",
+      "description": "can write only",
+      "id": 2
+    },
+    {
+      "permissionname": "update",
+      "description": "Can update only",
+      "id": 3
+    },
+    {
+      "permissionname": "Delete",
+      "description": "Can delete only",
+      "id": 4
+    },
+    {
+      "permissionname": "Manage Users",
+      "description": "Can manage users only",
+      "id": 5
+    }
+  ]
 }
